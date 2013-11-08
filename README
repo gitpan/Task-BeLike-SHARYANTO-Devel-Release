@@ -1,0 +1,42 @@
+NAME
+    Task::BeLike::SHARYANTO::Devel::Release - Install modules used when
+    SHARYANTO needs to release a Perl distribution
+
+VERSION
+    version 0.01
+
+DESCRIPTION
+    This task is currently used by me to update my Dist::Zilla and
+    Pod::Weaver plugins prior to releasing.
+
+FUNCTIONS
+    None are exported by default, but they are exportable.
+
+TASK CONTENTS
+  Included modules
+   Dist::Zilla::PluginBundle::Author::SHARYANTO
+   Pod::Weaver::PluginBundle::Author::SHARYANTO
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Task-BeLike-SHARYANTO-Devel-Release>.
+
+SOURCE
+    Source repository is at HASH(0x2add680).
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    "/rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-SHARYANTO-D
+    evel-Release" in https:
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

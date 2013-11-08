@@ -1,0 +1,26 @@
+---
+abstract: 'Install modules used when SHARYANTO needs to release a Perl distribution'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-BeLike-SHARYANTO-Devel-Release
+requires:
+  Dist::Zilla::PluginBundle::Author::SHARYANTO: 0
+  Pod::Weaver::PluginBundle::Author::SHARYANTO: 0
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-SHARYANTO-Devel-Release
+  homepage: https://metacpan.org/release/Task-BeLike-SHARYANTO-Devel-Release
+  repository: git://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Devel-Release.git
+version: 0.01
